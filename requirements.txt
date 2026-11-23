@@ -1,0 +1,21 @@
+fastapi       # for backend server
+uvicorn
+jinja2
+python-multipart
+
+python-dotenv  # for environment management
+
+langchain     #orchestration framework
+langchain-google-genai     # for gemini LLM
+langchain-core
+langgraph       
+langchain-text-splitters     #for chunking the uploaded document text
+langgraph-checkpoint-sqlite   #to use for persistent memory 
+
+langchain-chroma   
+chromadb         #vector database
+pypdf
+docx2txt
+langchain-tavily
+tavily-python
+sqlalchemy        #long-term conversation storage
